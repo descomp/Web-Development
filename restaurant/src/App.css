@@ -1,0 +1,222 @@
+.abc {
+    display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+    .abc {
+        flex-direction: column;
+    }
+    .abc .ab1 {
+        order: 1 !important;
+        /* border: 2px solid greenyellow; */
+    }
+    .abc .ab2 {
+        order: 2 !important;
+    }
+    .abc .ab3 {
+        order: 3 !important;
+    }
+    .abc .ab4 {
+        order: 4 !important;
+    }
+}
+
+.f1 {
+    background: black;
+}
+
+.abhi1 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/image81.jpg);
+}
+
+.n1 {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.n1 a {
+    color: white;
+}
+
+.n1 a:hover {
+    background-color: transparent !important;
+    color: white;
+    text-decoration: underline !important;
+}
+
+.h1 {
+    background: white !important;
+}
+
+.white {
+    background-color: white;
+}
+
+.img-responsive {
+    width: 100% !important;
+}
+
+.b1 {
+    padding-top: 100px;
+    /* background-color: black; */
+    /* background-image: url(); */
+}
+
+.b2 {
+    background-color: black;
+}
+
+.mf {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.g1 {
+    background: rgb(244, 244, 242) !important;
+}
+
+.s1 {
+    /* box-sizing: border-box !important; */
+    border: 2px solid rgb(176, 144, 68) !important;
+}
+
+.r1 {
+    background: rgba(255, 255, 255, 0.8) !important;
+    border-radius: 10px !important;
+    border: transparent !important;
+    box-shadow: 0px 2px 3px gray;
+}
+
+.cbg {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./img/cgb1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.Img33 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(./img/image40.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 70vh;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Img61 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(./img/image61.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nrr {
+    text-decoration: none !important;
+}
+
+.nr {
+    border: 2px solid gold !important;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+
+.nr:hover {
+    /* border: 2px solid red !important; */
+    background-color: rgb(176, 144, 68) !important;
+}
+
+.Img82 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/image82.webp);
+    background-size: cover;
+    background-position: center;
+    width: 60%;
+    height: 60vh;
+    /* margin-right: 2px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Img83 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./img/image83.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 60%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/image1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img81 {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./img/image81.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Img4 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./img/image10.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mimg1 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(./img/mg1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.img2 {
+    /* background: url(./img/image2.jpg); */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/image2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Img29 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./img/image35.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
